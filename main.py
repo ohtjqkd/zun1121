@@ -1,9 +1,7 @@
 import scrapper.homepageScrapper as homepageScrapper
-import datetime
 import downloader
 import time
 
-import pandas
 
 while True:
     try:

@@ -17,6 +17,17 @@ my_headers = {
     'referer':'http://210.222.27.5/',
 }
 
+def makeDriver():
+    option = webdriver.ChromeOptions()
+    option.add_argument("--headless")
+    option.add_argument("--silent")
+    option.add_argument("--disable-logging")
+    option.add_argument("--log-level=3")
+    option.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36")
+    driver = webdriver.Chrome(executable_path=os.path.join(sys._MEIPASS, "chromedriver.exe"), options=option) if getattr(sys, 'frozen', False) else webdriver.Chrome(options=option)
+    driver.implicitly_wait(time_to_wait=5)
+    return driver
+
 def getUrlJob(page_url, list_class):
     job_url_list = []
     print(f"Start Crwaling")
@@ -42,12 +53,12 @@ def getUrlJob(page_url, list_class):
         page += 1
     return job_url_list
 
-def getDataByUrl(root_url, page_url, params):
+def getDataByUrl(root_url, page_url, params, driver):
     data = {}
     page_url = root_url+page_url
     info_page = params.get('info_page')
     if info_page.get('selenium'):
-        info_page_url = getDataBySel({}, page_url, info_page)['url']
+        info_page_url = getDataBySel({}, page_url, info_page, driver)['url']
     else:
         info_page_url = getDataByBs({}, requests.get(page_url), info_page.get('params'))['url']
     if info_page_url[:4] != "http":
@@ -55,36 +66,36 @@ def getDataByUrl(root_url, page_url, params):
 
     info = params.get('info')
     if info.get('selenium'):
-        getDataBySel(data, info_page_url, info)
+        getDataBySel(data, info_page_url, info, driver)
     else:
         getDataByBs(data, requests.get(info_page_url), info.get('params'))
     #get Email address
-    getDataBySel(data, page_url, params.get('email'))
+    getDataBySel(data, page_url, params.get('email'), driver)
     print('data--------------------------------------------------------------------->')
     print(data)
     return data
 
-def getDataBySel(data, url, params):
-    option = webdriver.ChromeOptions()
-    option.add_argument("--headless")
-    option.add_argument("--silent")
-    option.add_argument("--disable-logging")
-    option.add_argument("--log-level=3")
-    option.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36")
-    with webdriver.Chrome(executable_path=os.path.join(sys._MEIPASS, "chromedriver.exe"), options=option) if getattr(sys, 'frozen', False) else webdriver.Chrome(options=option) as driver:
-        driver.implicitly_wait(time_to_wait=5)
-        driver.get(url)
-        isIframe = params.get('iframe')
-        if isIframe:
-            selector = isIframe.get('selector')
-            iframe_content = driver.find_element(selector.get('by'), selector.get('value'))
-            driver.switch_to.frame(iframe_content)
-            params = params.get('params')
-            getElementBySel(data, driver, params)
-        else:
-            params = params.get('params')
-            getElementBySel(data, driver, params)
-        driver.quit()
+def getDataBySel(data, url, params, driver):
+    # option = webdriver.ChromeOptions()
+    # option.add_argument("--headless")
+    # option.add_argument("--silent")
+    # option.add_argument("--disable-logging")
+    # option.add_argument("--log-level=3")
+    # option.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36")
+    # with webdriver.Chrome(executable_path=os.path.join(sys._MEIPASS, "chromedriver.exe"), options=option) if getattr(sys, 'frozen', False) else webdriver.Chrome(options=option) as driver:
+        # driver.implicitly_wait(time_to_wait=5)
+    driver.get(url)
+    isIframe = params.get('iframe')
+    if isIframe:
+        selector = isIframe.get('selector')
+        iframe_content = driver.find_element(selector.get('by'), selector.get('value'))
+        driver.switch_to.frame(iframe_content)
+        params = params.get('params')
+        getElementBySel(data, driver, params)
+    else:
+        params = params.get('params')
+        getElementBySel(data, driver, params)
+        # driver.quit()
     return data
 
 def getDataByBs(data, res, params):
@@ -125,6 +136,7 @@ def scrap(params):
     page_url = params.get("page_url")
     result = []
     url_list = getUrlJob(f'{root_url}{page_url}', list_class=params.get("list_class"))
-    for idx, url in enumerate(url_list):
-        result.append(getDataByUrl(root_url, url, params.get("each")))
+    with makeDriver() as driver:
+        for idx, url in enumerate(url_list):
+            result.append(getDataByUrl(root_url, url, params.get("each"), driver))
     return result
