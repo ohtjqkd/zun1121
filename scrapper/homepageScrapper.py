@@ -160,10 +160,9 @@ def saraminScrap(keyword):
                         "selector":{
                             "by":By.TAG_NAME,
                             "value":"html",
-                            "pattern":re.compile(r'[a-zA-Z0-9._]+\@+[a-zA-Z0-9._]+\.[a-z]')
+                            "pattern":re.compile(r'[a-zA-Z0-9._]+\@+[a-zA-Z0-9._]+\.[a-z.]*')
                         },
                         "attr":"innerText"
-                        # "value":re.compile(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
                     }
                 ]
             }

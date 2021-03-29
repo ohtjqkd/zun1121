@@ -3,9 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.relative_locator import with_tag_name
-import time, requests, random, re, sys, os
 from bs4 import BeautifulSoup
+import time, requests, random, re, sys, os, urllib3
+
 
 my_headers = {
     'User-Agent':
@@ -19,22 +19,26 @@ my_headers = {
 
 def getUrlJob(page_url, list_class):
     job_url_list = []
-    print(f"Get Url")
+    print(f"Start Crwaling")
     page = 1
-    while page<2:
+    
+    print("원하시는 검색건수를 입력해주세요. 입력하지 않으시면 모든 페이지를 검색합니다.")
+    cnt = input()
+    cnt = int(cnt) if cnt != "" else float('inf')
+    while True:
         list_url = f'{page_url}{page}'
         time.sleep(random.randint(5, 10))
-        print(list_url)
         job_res = requests.get(list_url, headers = my_headers)
         soup = BeautifulSoup(job_res.text, "html.parser")
         job_list = soup.select(list_class.get("value"))
-        print("IS EXIST?")
+        print(f'<---------------{page} page scrapped--------------->' )
         if len(job_list) == 0:
-            print("No")
+            print("No more job")
             break
-        print("YES")
         for job in job_list:
             job_url_list.append(job.get('href'))
+        if len(job_list) >= cnt:
+            break
         page += 1
     return job_url_list
 
@@ -45,35 +49,30 @@ def getDataByUrl(root_url, page_url, params):
     if info_page.get('selenium'):
         info_page_url = getDataBySel({}, page_url, info_page)['url']
     else:
-        # info_page_res = requests.get(page_url)
-        # soup = BeautifulSoup(info_page_res.text, "html.parser")
-        # print(soup.select_one(".coBtn .girBtn.girBtn_3")['href'])
         info_page_url = getDataByBs({}, requests.get(page_url), info_page.get('params'))['url']
     if info_page_url[:4] != "http":
         info_page_url = root_url + info_page_url
-    print(info_page_url)
-    # info_page_res = requests.get(info_page_url)
-    # info_page_soup = BeautifulSoup(info_page_res.text, "html.parser")
-    
-    #get Email address
-    getDataBySel(data, page_url, params.get('email'))
-    
+
     info = params.get('info')
     if info.get('selenium'):
-        infos = getDataBySel(data, info_page_url, info)
-        # company_name, address, homepage = infos['company'], infos['address'], infos['homepage']
+        getDataBySel(data, info_page_url, info)
     else:
-        infos = getDataByBs(data, requests.get(info_page_url), info.get('params'))
+        getDataByBs(data, requests.get(info_page_url), info.get('params'))
+    #get Email address
+    getDataBySel(data, page_url, params.get('email'))
     print('data--------------------------------------------------------------------->')
     print(data)
     return data
 
 def getDataBySel(data, url, params):
     option = webdriver.ChromeOptions()
-    option.add_argument("headless")
+    option.add_argument("--headless")
+    option.add_argument("--silent")
+    option.add_argument("--disable-logging")
+    option.add_argument("--log-level=3")
     option.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36")
     with webdriver.Chrome(executable_path=os.path.join(sys._MEIPASS, "chromedriver.exe"), options=option) if getattr(sys, 'frozen', False) else webdriver.Chrome(options=option) as driver:
-        driver.implicitly_wait(time_to_wait=30)
+        driver.implicitly_wait(time_to_wait=5)
         driver.get(url)
         isIframe = params.get('iframe')
         if isIframe:
@@ -110,13 +109,13 @@ def getElementBySel(data, driver, params):
         try:
             target = driver.find_element(param.get('selector').get('by'), param.get('selector').get('value'))
             if param.get('selector').get('pattern'):
-                print('by compiler')
-                data[param['name']] = param.get('selector').get('pattern').findall(target.text) if __ != [] else None
+                element = param.get('selector').get('pattern').findall(target.text)
+                data[param['name']] = element if element != [] else None
             else:
                 data[param['name']] = target.get_attribute(param.get('attr'))
         except Exception as e:
             print(param['name'])
-            print(e)
+            # print(e)
             data[param['name']] = None
             continue
 
@@ -129,33 +128,3 @@ def scrap(params):
     for idx, url in enumerate(url_list):
         result.append(getDataByUrl(root_url, url, params.get("each")))
     return result
-
-def testSel(url):
-    option = webdriver.ChromeOptions()
-    option.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36")
-    with webdriver.Chrome(chrome_options=option) as driver:
-        driver.get(url)
-        driver.implicitly_wait(10)
-        iframe = driver.find_element(by=By.CSS_SELECTOR, value='iframe.iframe_content')
-        driver.switch_to.frame(iframe)
-        html = driver.find_element(By.TAG_NAME,'html')
-        # email = driver.find_element(By.XPATH, "//*[text()[contains(.,match(@text,'[a-zA-Z0-9_]+\@[a-zA-Z0-9_]+\.+[a-zA-Z0-9-.]+'))]]")
-        html = html.text
-        comp = re.compile(r"[a-zA-Z0-9._]+\@+[a-zA-Z0-9._]+.[a-z]")
-        comp.search(html)
-        result = comp.search(html)
-        result = comp.findall(html)
-        # result = re.match(comp, html)
-        print(html)
-        # print(type(html))
-        print(result)
-        # print(email.text)
-        # print(html.text)
-        # dt = driver.find_element(By.XPATH, "//dt[text()='기업주소']/following-sibling::dd")
-        # print(dt.get_attribute('innerHTML'))
-        # print(dt.get_attribute('outerHTML'))
-        # print(dt.get_attribute('innerText'))
-
-# mobizen = "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=39860876&recommend_ids=eJxdkMkVAzEIQ6vJHQxI%2BJxC3H8X8cTrm%2BM3khC2mikF1uj88GsXNh8PhBlb1ImgsnTEC5dcIKxHHhCVHjfkpKuiQcpAJLU21BxiDTcc78aVnRnyVIk%2FRhUr1t2zivTAvhn6wummhaSd9OKK65CNS97baew40I2xDznYzqHIPT8456Cx2OVfuP2eV%2F7B7XeI3%2FsnrrowpTyf8QOLiWey&view_type=list&gz=1&t_ref_content=ing_recruit&t_ref=company_info_view#seq=0"
-# url = "https://www.saramin.co.kr/zf_user/jobs/relay/view?isMypage=no&rec_idx=39826805&recommend_ids=eJxdkMkVwyAMRKvJXftI5xRC%2F13EfiYIfPxIswitzAzk8PIPvlqpCPcBixcOex7K3HKA9IVzjmCQX3ZTb1TY7O51OdWyqROpnls6XxuNWSrSVRd2t4rDfeJ%2FniCu1js5o93dDJ2NYoasQ6CkjoXOwlp9ZjllreRgJrNlFSYssX9CZRw1Hxz2AyjUWFw%3D&view_type=list&gz=1&t_ref_content=general&t_ref=headhunting#seq=0"
-# testSel(mobizen)
