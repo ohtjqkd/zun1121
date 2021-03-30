@@ -1,0 +1,3195 @@
+('C:\\vs code-workspace\\zun1121\\venv\\build\\main\\PYZ-00.pyz',
+ [('ssl', 'C:\\python38-32\\lib\\ssl.py', 'PYMODULE'),
+  ('calendar', 'C:\\python38-32\\lib\\calendar.py', 'PYMODULE'),
+  ('argparse', 'C:\\python38-32\\lib\\argparse.py', 'PYMODULE'),
+  ('textwrap', 'C:\\python38-32\\lib\\textwrap.py', 'PYMODULE'),
+  ('copy', 'C:\\python38-32\\lib\\copy.py', 'PYMODULE'),
+  ('gettext', 'C:\\python38-32\\lib\\gettext.py', 'PYMODULE'),
+  ('struct', 'C:\\python38-32\\lib\\struct.py', 'PYMODULE'),
+  ('shutil', 'C:\\python38-32\\lib\\shutil.py', 'PYMODULE'),
+  ('zipfile', 'C:\\python38-32\\lib\\zipfile.py', 'PYMODULE'),
+  ('py_compile', 'C:\\python38-32\\lib\\py_compile.py', 'PYMODULE'),
+  ('ntpath', 'C:\\python38-32\\lib\\ntpath.py', 'PYMODULE'),
+  ('string', 'C:\\python38-32\\lib\\string.py', 'PYMODULE'),
+  ('genericpath', 'C:\\python38-32\\lib\\genericpath.py', 'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\python38-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib', 'C:\\python38-32\\lib\\importlib\\__init__.py', 'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\python38-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\python38-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\python38-32\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc', 'C:\\python38-32\\lib\\importlib\\abc.py', 'PYMODULE'),
+  ('configparser', 'C:\\python38-32\\lib\\configparser.py', 'PYMODULE'),
+  ('pathlib', 'C:\\python38-32\\lib\\pathlib.py', 'PYMODULE'),
+  ('urllib.parse', 'C:\\python38-32\\lib\\urllib\\parse.py', 'PYMODULE'),
+  ('urllib', 'C:\\python38-32\\lib\\urllib\\__init__.py', 'PYMODULE'),
+  ('email', 'C:\\python38-32\\lib\\email\\__init__.py', 'PYMODULE'),
+  ('email.parser', 'C:\\python38-32\\lib\\email\\parser.py', 'PYMODULE'),
+  ('email._policybase',
+   'C:\\python38-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils', 'C:\\python38-32\\lib\\email\\utils.py', 'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\python38-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('random', 'C:\\python38-32\\lib\\random.py', 'PYMODULE'),
+  ('hashlib', 'C:\\python38-32\\lib\\hashlib.py', 'PYMODULE'),
+  ('logging', 'C:\\python38-32\\lib\\logging\\__init__.py', 'PYMODULE'),
+  ('pickle', 'C:\\python38-32\\lib\\pickle.py', 'PYMODULE'),
+  ('pprint', 'C:\\python38-32\\lib\\pprint.py', 'PYMODULE'),
+  ('doctest', 'C:\\python38-32\\lib\\doctest.py', 'PYMODULE'),
+  ('unittest', 'C:\\python38-32\\lib\\unittest\\__init__.py', 'PYMODULE'),
+  ('unittest.signals',
+   'C:\\python38-32\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('signal', 'C:\\python38-32\\lib\\signal.py', 'PYMODULE'),
+  ('unittest.main', 'C:\\python38-32\\lib\\unittest\\main.py', 'PYMODULE'),
+  ('unittest.runner', 'C:\\python38-32\\lib\\unittest\\runner.py', 'PYMODULE'),
+  ('unittest.loader', 'C:\\python38-32\\lib\\unittest\\loader.py', 'PYMODULE'),
+  ('unittest.suite', 'C:\\python38-32\\lib\\unittest\\suite.py', 'PYMODULE'),
+  ('unittest.case', 'C:\\python38-32\\lib\\unittest\\case.py', 'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\python38-32\\lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('asyncio', 'C:\\python38-32\\lib\\asyncio\\__init__.py', 'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\python38-32\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log', 'C:\\python38-32\\lib\\asyncio\\log.py', 'PYMODULE'),
+  ('subprocess', 'C:\\python38-32\\lib\\subprocess.py', 'PYMODULE'),
+  ('selectors', 'C:\\python38-32\\lib\\selectors.py', 'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\python38-32\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\python38-32\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('tempfile', 'C:\\python38-32\\lib\\tempfile.py', 'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\python38-32\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\python38-32\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\python38-32\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\python38-32\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams', 'C:\\python38-32\\lib\\asyncio\\streams.py', 'PYMODULE'),
+  ('asyncio.queues', 'C:\\python38-32\\lib\\asyncio\\queues.py', 'PYMODULE'),
+  ('asyncio.runners', 'C:\\python38-32\\lib\\asyncio\\runners.py', 'PYMODULE'),
+  ('asyncio.events', 'C:\\python38-32\\lib\\asyncio\\events.py', 'PYMODULE'),
+  ('contextvars', 'C:\\python38-32\\lib\\contextvars.py', 'PYMODULE'),
+  ('asyncio.trsock', 'C:\\python38-32\\lib\\asyncio\\trsock.py', 'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\python38-32\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('typing', 'C:\\python38-32\\lib\\typing.py', 'PYMODULE'),
+  ('asyncio.tasks', 'C:\\python38-32\\lib\\asyncio\\tasks.py', 'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\python38-32\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\python38-32\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('queue', 'C:\\python38-32\\lib\\queue.py', 'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\python38-32\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\python38-32\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\python38-32\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\python38-32\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\python38-32\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\python38-32\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy', 'C:\\python38-32\\lib\\runpy.py', 'PYMODULE'),
+  ('pkgutil', 'C:\\python38-32\\lib\\pkgutil.py', 'PYMODULE'),
+  ('zipimport', 'C:\\python38-32\\lib\\zipimport.py', 'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\python38-32\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\python38-32\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\python38-32\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\python38-32\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\python38-32\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\python38-32\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\python38-32\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\python38-32\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\python38-32\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('ctypes', 'C:\\python38-32\\lib\\ctypes\\__init__.py', 'PYMODULE'),
+  ('ctypes._endian', 'C:\\python38-32\\lib\\ctypes\\_endian.py', 'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\python38-32\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\python38-32\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\python38-32\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\python38-32\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\python38-32\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets', 'C:\\python38-32\\lib\\secrets.py', 'PYMODULE'),
+  ('hmac', 'C:\\python38-32\\lib\\hmac.py', 'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\python38-32\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\python38-32\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\python38-32\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client', 'C:\\python38-32\\lib\\xmlrpc\\client.py', 'PYMODULE'),
+  ('xmlrpc', 'C:\\python38-32\\lib\\xmlrpc\\__init__.py', 'PYMODULE'),
+  ('gzip', 'C:\\python38-32\\lib\\gzip.py', 'PYMODULE'),
+  ('_compression', 'C:\\python38-32\\lib\\_compression.py', 'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\python38-32\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\python38-32\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml', 'C:\\python38-32\\lib\\xml\\__init__.py', 'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\python38-32\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\python38-32\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request', 'C:\\python38-32\\lib\\urllib\\request.py', 'PYMODULE'),
+  ('getpass', 'C:\\python38-32\\lib\\getpass.py', 'PYMODULE'),
+  ('nturl2path', 'C:\\python38-32\\lib\\nturl2path.py', 'PYMODULE'),
+  ('ftplib', 'C:\\python38-32\\lib\\ftplib.py', 'PYMODULE'),
+  ('netrc', 'C:\\python38-32\\lib\\netrc.py', 'PYMODULE'),
+  ('shlex', 'C:\\python38-32\\lib\\shlex.py', 'PYMODULE'),
+  ('mimetypes', 'C:\\python38-32\\lib\\mimetypes.py', 'PYMODULE'),
+  ('getopt', 'C:\\python38-32\\lib\\getopt.py', 'PYMODULE'),
+  ('http.cookiejar', 'C:\\python38-32\\lib\\http\\cookiejar.py', 'PYMODULE'),
+  ('http', 'C:\\python38-32\\lib\\http\\__init__.py', 'PYMODULE'),
+  ('urllib.response', 'C:\\python38-32\\lib\\urllib\\response.py', 'PYMODULE'),
+  ('urllib.error', 'C:\\python38-32\\lib\\urllib\\error.py', 'PYMODULE'),
+  ('xml.sax', 'C:\\python38-32\\lib\\xml\\sax\\__init__.py', 'PYMODULE'),
+  ('xml.sax.handler', 'C:\\python38-32\\lib\\xml\\sax\\handler.py', 'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\python38-32\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\python38-32\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client', 'C:\\python38-32\\lib\\http\\client.py', 'PYMODULE'),
+  ('email.message', 'C:\\python38-32\\lib\\email\\message.py', 'PYMODULE'),
+  ('email.policy', 'C:\\python38-32\\lib\\email\\policy.py', 'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\python38-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\python38-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\python38-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators', 'C:\\python38-32\\lib\\email\\iterators.py', 'PYMODULE'),
+  ('email.generator', 'C:\\python38-32\\lib\\email\\generator.py', 'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\python38-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('quopri', 'C:\\python38-32\\lib\\quopri.py', 'PYMODULE'),
+  ('uu', 'C:\\python38-32\\lib\\uu.py', 'PYMODULE'),
+  ('optparse', 'C:\\python38-32\\lib\\optparse.py', 'PYMODULE'),
+  ('decimal', 'C:\\python38-32\\lib\\decimal.py', 'PYMODULE'),
+  ('_pydecimal', 'C:\\python38-32\\lib\\_pydecimal.py', 'PYMODULE'),
+  ('numbers', 'C:\\python38-32\\lib\\numbers.py', 'PYMODULE'),
+  ('multiprocessing',
+   'C:\\python38-32\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\python38-32\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent', 'C:\\python38-32\\lib\\concurrent\\__init__.py', 'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\python38-32\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks', 'C:\\python38-32\\lib\\asyncio\\locks.py', 'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\python38-32\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\python38-32\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\python38-32\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\python38-32\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures', 'C:\\python38-32\\lib\\asyncio\\futures.py', 'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\python38-32\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\python38-32\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\python38-32\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\python38-32\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\python38-32\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('unittest.result', 'C:\\python38-32\\lib\\unittest\\result.py', 'PYMODULE'),
+  ('unittest.util', 'C:\\python38-32\\lib\\unittest\\util.py', 'PYMODULE'),
+  ('pdb', 'C:\\python38-32\\lib\\pdb.py', 'PYMODULE'),
+  ('pydoc', 'C:\\python38-32\\lib\\pydoc.py', 'PYMODULE'),
+  ('webbrowser', 'C:\\python38-32\\lib\\webbrowser.py', 'PYMODULE'),
+  ('http.server', 'C:\\python38-32\\lib\\http\\server.py', 'PYMODULE'),
+  ('socketserver', 'C:\\python38-32\\lib\\socketserver.py', 'PYMODULE'),
+  ('html', 'C:\\python38-32\\lib\\html\\__init__.py', 'PYMODULE'),
+  ('html.entities', 'C:\\python38-32\\lib\\html\\entities.py', 'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\python38-32\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data', 'C:\\python38-32\\lib\\pydoc_data\\__init__.py', 'PYMODULE'),
+  ('tty', 'C:\\python38-32\\lib\\tty.py', 'PYMODULE'),
+  ('sysconfig', 'C:\\python38-32\\lib\\sysconfig.py', 'PYMODULE'),
+  ('_osx_support', 'C:\\python38-32\\lib\\_osx_support.py', 'PYMODULE'),
+  ('distutils.log', 'C:\\python38-32\\lib\\distutils\\log.py', 'PYMODULE'),
+  ('distutils', 'C:\\python38-32\\lib\\distutils\\__init__.py', 'PYMODULE'),
+  ('distutils.archive_util',
+   'C:\\python38-32\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'C:\\python38-32\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'C:\\python38-32\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'C:\\python38-32\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.spawn', 'C:\\python38-32\\lib\\distutils\\spawn.py', 'PYMODULE'),
+  ('distutils.debug', 'C:\\python38-32\\lib\\distutils\\debug.py', 'PYMODULE'),
+  ('distutils.errors',
+   'C:\\python38-32\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'C:\\python38-32\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'C:\\python38-32\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.util', 'C:\\python38-32\\lib\\distutils\\util.py', 'PYMODULE'),
+  ('distutils.filelist',
+   'C:\\python38-32\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'C:\\python38-32\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'C:\\python38-32\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('platform', 'C:\\python38-32\\lib\\platform.py', 'PYMODULE'),
+  ('plistlib', 'C:\\python38-32\\lib\\plistlib.py', 'PYMODULE'),
+  ('glob', 'C:\\python38-32\\lib\\glob.py', 'PYMODULE'),
+  ('code', 'C:\\python38-32\\lib\\code.py', 'PYMODULE'),
+  ('codeop', 'C:\\python38-32\\lib\\codeop.py', 'PYMODULE'),
+  ('dis', 'C:\\python38-32\\lib\\dis.py', 'PYMODULE'),
+  ('opcode', 'C:\\python38-32\\lib\\opcode.py', 'PYMODULE'),
+  ('bdb', 'C:\\python38-32\\lib\\bdb.py', 'PYMODULE'),
+  ('cmd', 'C:\\python38-32\\lib\\cmd.py', 'PYMODULE'),
+  ('inspect', 'C:\\python38-32\\lib\\inspect.py', 'PYMODULE'),
+  ('ast', 'C:\\python38-32\\lib\\ast.py', 'PYMODULE'),
+  ('token', 'C:\\python38-32\\lib\\token.py', 'PYMODULE'),
+  ('difflib', 'C:\\python38-32\\lib\\difflib.py', 'PYMODULE'),
+  ('__future__', 'C:\\python38-32\\lib\\__future__.py', 'PYMODULE'),
+  ('_compat_pickle', 'C:\\python38-32\\lib\\_compat_pickle.py', 'PYMODULE'),
+  ('bisect', 'C:\\python38-32\\lib\\bisect.py', 'PYMODULE'),
+  ('email.feedparser',
+   'C:\\python38-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\python38-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header', 'C:\\python38-32\\lib\\email\\header.py', 'PYMODULE'),
+  ('email.base64mime',
+   'C:\\python38-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset', 'C:\\python38-32\\lib\\email\\charset.py', 'PYMODULE'),
+  ('email.encoders', 'C:\\python38-32\\lib\\email\\encoders.py', 'PYMODULE'),
+  ('email.errors', 'C:\\python38-32\\lib\\email\\errors.py', 'PYMODULE'),
+  ('csv', 'C:\\python38-32\\lib\\csv.py', 'PYMODULE'),
+  ('tokenize', 'C:\\python38-32\\lib\\tokenize.py', 'PYMODULE'),
+  ('contextlib', 'C:\\python38-32\\lib\\contextlib.py', 'PYMODULE'),
+  ('threading', 'C:\\python38-32\\lib\\threading.py', 'PYMODULE'),
+  ('_threading_local', 'C:\\python38-32\\lib\\_threading_local.py', 'PYMODULE'),
+  ('posixpath', 'C:\\python38-32\\lib\\posixpath.py', 'PYMODULE'),
+  ('importlib.util', 'C:\\python38-32\\lib\\importlib\\util.py', 'PYMODULE'),
+  ('tarfile', 'C:\\python38-32\\lib\\tarfile.py', 'PYMODULE'),
+  ('lzma', 'C:\\python38-32\\lib\\lzma.py', 'PYMODULE'),
+  ('bz2', 'C:\\python38-32\\lib\\bz2.py', 'PYMODULE'),
+  ('fnmatch', 'C:\\python38-32\\lib\\fnmatch.py', 'PYMODULE'),
+  ('stat', 'C:\\python38-32\\lib\\stat.py', 'PYMODULE'),
+  ('_strptime', 'C:\\python38-32\\lib\\_strptime.py', 'PYMODULE'),
+  ('base64', 'C:\\python38-32\\lib\\base64.py', 'PYMODULE'),
+  ('socket', 'C:\\python38-32\\lib\\socket.py', 'PYMODULE'),
+  ('os', 'C:\\python38-32\\lib\\os.py', 'PYMODULE'),
+  ('pkg_resources',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid', 'C:\\python38-32\\lib\\uuid.py', 'PYMODULE'),
+  ('ctypes.util', 'C:\\python38-32\\lib\\ctypes\\util.py', 'PYMODULE'),
+  ('ctypes._aix', 'C:\\python38-32\\lib\\ctypes\\_aix.py', 'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\python38-32\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\python38-32\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\python38-32\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\python38-32\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.six',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\six.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp', 'C:\\python38-32\\lib\\imp.py', 'PYMODULE'),
+  ('stringprep', 'C:\\python38-32\\lib\\stringprep.py', 'PYMODULE'),
+  ('tracemalloc', 'C:\\python38-32\\lib\\tracemalloc.py', 'PYMODULE'),
+  ('_py_abc', 'C:\\python38-32\\lib\\_py_abc.py', 'PYMODULE'),
+  ('datetime', 'C:\\python38-32\\lib\\datetime.py', 'PYMODULE'),
+  ('downloader',
+   'C:\\vs code-workspace\\zun1121\\venv\\downloader.py',
+   'PYMODULE'),
+  ('pandas',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.window',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_libs\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas._libs.tslibs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py',
+   'PYMODULE'),
+  ('numpy',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.distutils.cpuinfo',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\cpuinfo.py',
+   'PYMODULE'),
+  ('numpy.distutils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\fcompiler\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config_compiler',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\config_compiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.command',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.egg_info',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'C:\\python38-32\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.install_scripts',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.py31compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\py31compat.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'C:\\python38-32\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.cmd', 'C:\\python38-32\\lib\\distutils\\cmd.py', 'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('site',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'C:\\python38-32\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'C:\\python38-32\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'C:\\python38-32\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('distutils.command.install_scripts',
+   'C:\\python38-32\\lib\\distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'C:\\python38-32\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'C:\\python38-32\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.six',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\six.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'C:\\python38-32\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('json', 'C:\\python38-32\\lib\\json\\__init__.py', 'PYMODULE'),
+  ('json.encoder', 'C:\\python38-32\\lib\\json\\encoder.py', 'PYMODULE'),
+  ('json.decoder', 'C:\\python38-32\\lib\\json\\decoder.py', 'PYMODULE'),
+  ('json.scanner', 'C:\\python38-32\\lib\\json\\scanner.py', 'PYMODULE'),
+  ('distutils.command.build_ext',
+   'C:\\python38-32\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'C:\\python38-32\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('setuptools.namespaces',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\namespaces.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._deprecation_warning',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
+   'PYMODULE'),
+  ('setuptools.distutils_patch',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\distutils_patch.py',
+   'PYMODULE'),
+  ('html.parser', 'C:\\python38-32\\lib\\html\\parser.py', 'PYMODULE'),
+  ('_markupbase', 'C:\\python38-32\\lib\\_markupbase.py', 'PYMODULE'),
+  ('setuptools.extern',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.develop',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\develop.py',
+   'PYMODULE'),
+  ('setuptools.command.develop',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\develop.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_clib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.bdist_rpm',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('distutils.command.bdist_rpm',
+   'C:\\python38-32\\lib\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_rpm',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('setuptools.command.install',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\setuptools\\command\\install.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_headers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('distutils.command.install_headers',
+   'C:\\python38-32\\lib\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_data',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('distutils.command.install_data',
+   'C:\\python38-32\\lib\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.sdist',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_scripts',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_clib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler_opt',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\ccompiler_opt.py',
+   'PYMODULE'),
+  ('distutils.command.build_clib',
+   'C:\\python38-32\\lib\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_ext',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('numpy.distutils.system_info',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\system_info.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py_testing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\f2py_testing.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_src',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_src.py',
+   'PYMODULE'),
+  ('numpy.distutils.conv_template',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\conv_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.from_template',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\from_template.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('fileinput', 'C:\\python38-32\\lib\\fileinput.py', 'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_py',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('distutils.command.build_py',
+   'C:\\python38-32\\lib\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('distutils.command.build',
+   'C:\\python38-32\\lib\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.autodist',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\command\\autodist.py',
+   'PYMODULE'),
+  ('numpy.distutils.mingw32ccompiler',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\mingw32ccompiler.py',
+   'PYMODULE'),
+  ('distutils.msvccompiler',
+   'C:\\python38-32\\lib\\distutils\\msvccompiler.py',
+   'PYMODULE'),
+  ('distutils.unixccompiler',
+   'C:\\python38-32\\lib\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('distutils.cygwinccompiler',
+   'C:\\python38-32\\lib\\distutils\\cygwinccompiler.py',
+   'PYMODULE'),
+  ('distutils.command.config',
+   'C:\\python38-32\\lib\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('distutils.core', 'C:\\python38-32\\lib\\distutils\\core.py', 'PYMODULE'),
+  ('distutils.config',
+   'C:\\python38-32\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('cgi', 'C:\\python38-32\\lib\\cgi.py', 'PYMODULE'),
+  ('distutils.dist', 'C:\\python38-32\\lib\\distutils\\dist.py', 'PYMODULE'),
+  ('distutils.versionpredicate',
+   'C:\\python38-32\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('numpy.distutils.core',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\core.py',
+   'PYMODULE'),
+  ('numpy.distutils.numpy_distribution',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\numpy_distribution.py',
+   'PYMODULE'),
+  ('numpy.distutils.extension',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\extension.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler.environment',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\fcompiler\\environment.py',
+   'PYMODULE'),
+  ('numpy.distutils.exec_command',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\exec_command.py',
+   'PYMODULE'),
+  ('numpy.distutils.misc_util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\misc_util.py',
+   'PYMODULE'),
+  ('curses', 'C:\\python38-32\\lib\\curses\\__init__.py', 'PYMODULE'),
+  ('curses.has_key', 'C:\\python38-32\\lib\\curses\\has_key.py', 'PYMODULE'),
+  ('dummy_threading', 'C:\\python38-32\\lib\\dummy_threading.py', 'PYMODULE'),
+  ('_dummy_thread', 'C:\\python38-32\\lib\\_dummy_thread.py', 'PYMODULE'),
+  ('numpy.distutils.__config__',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\__config__.py',
+   'PYMODULE'),
+  ('numpy.distutils.npy_pkg_config',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\npy_pkg_config.py',
+   'PYMODULE'),
+  ('numpy.distutils.unixccompiler',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils._shell_utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\_shell_utils.py',
+   'PYMODULE'),
+  ('pipes', 'C:\\python38-32\\lib\\pipes.py', 'PYMODULE'),
+  ('numpy.distutils.lib2def',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\lib2def.py',
+   'PYMODULE'),
+  ('numpy.distutils.log',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\distutils\\log.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('pandas._version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_version.py',
+   'PYMODULE'),
+  ('pandas.arrays',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.timedeltas',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.io.formats.format',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\format.py',
+   'PYMODULE'),
+  ('pandas.io.formats.csvs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\csvs.py',
+   'PYMODULE'),
+  ('pandas.io.formats.string',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\string.py',
+   'PYMODULE'),
+  ('pandas.io.formats.html',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\html.py',
+   'PYMODULE'),
+  ('pandas.io.formats.latex',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\latex.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.multi',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\multi.py',
+   'PYMODULE'),
+  ('pandas.core.indexes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\util.py',
+   'PYMODULE'),
+  ('pandas.core.reshape',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.sorting',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\sorting.py',
+   'PYMODULE'),
+  ('pandas.core.ops.invalid',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\invalid.py',
+   'PYMODULE'),
+  ('pandas.core.ops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.roperator',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\roperator.py',
+   'PYMODULE'),
+  ('pandas.core.ops.methods',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\methods.py',
+   'PYMODULE'),
+  ('pandas.core.ops.mask_ops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\mask_ops.py',
+   'PYMODULE'),
+  ('pandas.core.ops.docstrings',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\docstrings.py',
+   'PYMODULE'),
+  ('pandas.core.ops.array_ops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\array_ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expressions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\expressions.py',
+   'PYMODULE'),
+  ('pandas.core.computation',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.check',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\check.py',
+   'PYMODULE'),
+  ('pandas.compat._optional',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\compat\\_optional.py',
+   'PYMODULE'),
+  ('pandas.compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.ops.dispatch',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\dispatch.py',
+   'PYMODULE'),
+  ('pandas.core.ops.missing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.missing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.numeric',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.frozen',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\frozen.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.merge',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\merge.py',
+   'PYMODULE'),
+  ('pandas.core.internals',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\internals\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.managers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\internals\\managers.py',
+   'PYMODULE'),
+  ('pandas.core.internals.ops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\internals\\ops.py',
+   'PYMODULE'),
+  ('pandas.util._validators',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\util\\_validators.py',
+   'PYMODULE'),
+  ('pandas.util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.util.testing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\util\\testing.py',
+   'PYMODULE'),
+  ('pandas._testing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_testing.py',
+   'PYMODULE'),
+  ('pandas._config.localization',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_config\\localization.py',
+   'PYMODULE'),
+  ('pandas.core.util.hashing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\util\\hashing.py',
+   'PYMODULE'),
+  ('pandas.core.util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\util\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.internals.concat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\internals\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.dtype',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\dtype.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.array',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\array.py',
+   'PYMODULE'),
+  ('pandas.core.arraylike',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arraylike.py',
+   'PYMODULE'),
+  ('pandas.core.generic',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.tools.datetimes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\tools\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.tools',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\tools\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.tools.times',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\tools\\times.py',
+   'PYMODULE'),
+  ('pandas.io.clipboards',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\clipboards.py',
+   'PYMODULE'),
+  ('pandas.io.parsers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\parsers.py',
+   'PYMODULE'),
+  ('pandas.io.date_converters',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\date_converters.py',
+   'PYMODULE'),
+  ('pandas.io.clipboard',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.wintypes', 'C:\\python38-32\\lib\\ctypes\\wintypes.py', 'PYMODULE'),
+  ('pandas.io.pickle',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\pickle.py',
+   'PYMODULE'),
+  ('pandas.compat.pickle_compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\compat\\pickle_compat.py',
+   'PYMODULE'),
+  ('pandas.io.sql',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\sql.py',
+   'PYMODULE'),
+  ('sqlite3', 'C:\\python38-32\\lib\\sqlite3\\__init__.py', 'PYMODULE'),
+  ('sqlite3.dump', 'C:\\python38-32\\lib\\sqlite3\\dump.py', 'PYMODULE'),
+  ('sqlite3.dbapi2', 'C:\\python38-32\\lib\\sqlite3\\dbapi2.py', 'PYMODULE'),
+  ('pandas.io.pytables',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.pytables',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\pytables.py',
+   'PYMODULE'),
+  ('pandas.core.computation.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\common.py',
+   'PYMODULE'),
+  ('pandas.core.computation.scope',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\scope.py',
+   'PYMODULE'),
+  ('pandas.core.computation.ops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.computation.eval',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\eval.py',
+   'PYMODULE'),
+  ('pandas.core.computation.engines',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\engines.py',
+   'PYMODULE'),
+  ('pandas.core.computation.align',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\align.py',
+   'PYMODULE'),
+  ('pandas.core.computation.expr',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\expr.py',
+   'PYMODULE'),
+  ('pandas.compat.chainmap',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\compat\\chainmap.py',
+   'PYMODULE'),
+  ('pandas.io',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.gbq',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\gbq.py',
+   'PYMODULE'),
+  ('pandas.io.formats.excel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\excel.py',
+   'PYMODULE'),
+  ('pandas.io.excel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlwt',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlwt.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlsxwriter',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlsxwriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_util.py',
+   'PYMODULE'),
+  ('pandas.io.excel._openpyxl',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_openpyxl.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odswriter',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_odswriter.py',
+   'PYMODULE'),
+  ('pandas.io.excel._base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_base.py',
+   'PYMODULE'),
+  ('pandas.io.excel._xlrd',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_xlrd.py',
+   'PYMODULE'),
+  ('pandas.io.excel._pyxlsb',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_pyxlsb.py',
+   'PYMODULE'),
+  ('pandas.io.excel._odfreader',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\excel\\_odfreader.py',
+   'PYMODULE'),
+  ('pandas.io.formats.css',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\css.py',
+   'PYMODULE'),
+  ('pandas.io.formats._color_data',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\_color_data.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.computation.parsing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\parsing.py',
+   'PYMODULE'),
+  ('pandas.core.window.indexers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\window\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.series',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\series.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.reshape',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\reshape.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.generic',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.tile',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\tile.py',
+   'PYMODULE'),
+  ('pandas.core.util.numba_',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\util\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.groupby',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\groupby.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.grouper',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\grouper.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.categorical',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.ops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\ops.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.numba_',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.groupby.base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\base.py',
+   'PYMODULE'),
+  ('pandas.plotting',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._misc',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._core',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\__init__.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.tools',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\tools.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\compat.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.misc',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\misc.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.style',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\style.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.hist',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\hist.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.core',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\core.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.timeseries',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\timeseries.py',
+   'PYMODULE'),
+  ('pandas.tseries.frequencies',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\tseries\\frequencies.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.converter',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\converter.py',
+   'PYMODULE'),
+  ('dateutil.relativedelta',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\relativedelta.py',
+   'PYMODULE'),
+  ('dateutil',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.rrule',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\rrule.py',
+   'PYMODULE'),
+  ('dateutil.parser',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\parser\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.parser.isoparser',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\parser\\isoparser.py',
+   'PYMODULE'),
+  ('dateutil.parser._parser',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\parser\\_parser.py',
+   'PYMODULE'),
+  ('fractions', 'C:\\python38-32\\lib\\fractions.py', 'PYMODULE'),
+  ('dateutil.tz',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\tz\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.tz',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\tz\\tz.py',
+   'PYMODULE'),
+  ('dateutil.zoneinfo',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\zoneinfo\\__init__.py',
+   'PYMODULE'),
+  ('dateutil.tz.win',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\tz\\win.py',
+   'PYMODULE'),
+  ('dateutil.tz._factories',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\tz\\_factories.py',
+   'PYMODULE'),
+  ('dateutil.tz._common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\tz\\_common.py',
+   'PYMODULE'),
+  ('dateutil.easter',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\easter.py',
+   'PYMODULE'),
+  ('dateutil._version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\_version.py',
+   'PYMODULE'),
+  ('dateutil._common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\dateutil\\_common.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('pandas.plotting._matplotlib.boxplot',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\plotting\\_matplotlib\\boxplot.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.accessors',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\accessors.py',
+   'PYMODULE'),
+  ('pandas.core.aggregation',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\aggregation.py',
+   'PYMODULE'),
+  ('pandas.core.resample',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\resample.py',
+   'PYMODULE'),
+  ('pandas.core.window',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.window.rolling',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\window\\rolling.py',
+   'PYMODULE'),
+  ('pandas.core.window.numba_',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\window\\numba_.py',
+   'PYMODULE'),
+  ('pandas.core.window.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\window\\common.py',
+   'PYMODULE'),
+  ('pandas.core.window.expanding',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\window\\expanding.py',
+   'PYMODULE'),
+  ('pandas.core.window.ewm',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\window\\ewm.py',
+   'PYMODULE'),
+  ('pandas.core.shared_docs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\shared_docs.py',
+   'PYMODULE'),
+  ('pandas.core.flags',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\flags.py',
+   'PYMODULE'),
+  ('pandas.core.indexing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.inference',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\inference.py',
+   'PYMODULE'),
+  ('dataclasses', 'C:\\python38-32\\lib\\dataclasses.py', 'PYMODULE'),
+  ('pandas.core.dtypes.base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\base.py',
+   'PYMODULE'),
+  ('pandas.core.internals.blocks',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\internals\\blocks.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.transforms',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\transforms.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.masked_reductions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\masked_reductions.py',
+   'PYMODULE'),
+  ('pandas.core.array_algos.replace',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\array_algos\\replace.py',
+   'PYMODULE'),
+  ('pandas.core.frame',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\frame.py',
+   'PYMODULE'),
+  ('pandas.core.apply',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\apply.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.pivot',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\pivot.py',
+   'PYMODULE'),
+  ('pandas.io.parquet',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\parquet.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._arrow_utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\_arrow_utils.py',
+   'PYMODULE'),
+  ('pandas.io.feather_format',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\feather_format.py',
+   'PYMODULE'),
+  ('pandas.io.stata',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\stata.py',
+   'PYMODULE'),
+  ('pandas.io.formats.style',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\style.py',
+   'PYMODULE'),
+  ('pandas.api.types',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\api\\types\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\api.py',
+   'PYMODULE'),
+  ('pandas.io.formats.info',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\info.py',
+   'PYMODULE'),
+  ('pandas.io.formats.console',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\console.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.melt',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\melt.py',
+   'PYMODULE'),
+  ('pandas.core.tools.numeric',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\tools\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.internals.construction',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\internals\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.groupby',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\groupby\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.interval',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.extension',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\extension.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._mixins',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\_mixins.py',
+   'PYMODULE'),
+  ('pandas.util._exceptions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\util\\_exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.category',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\category.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.range',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\range.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.period',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\period.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimelike',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core.tools.timedeltas',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\tools\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.strings',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\strings\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.strings.base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\strings\\base.py',
+   'PYMODULE'),
+  ('pandas.core.strings.accessor',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\strings\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.indexers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexers.py',
+   'PYMODULE'),
+  ('pandas.core.accessor',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.concat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.cast',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\cast.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_arrow',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py',
+   'PYMODULE'),
+  ('pandas.util._decorators',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\util\\_decorators.py',
+   'PYMODULE'),
+  ('pandas.errors',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\errors\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.formats.printing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\printing.py',
+   'PYMODULE'),
+  ('pandas.io.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\common.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.concat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\concat.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.timedeltas',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\timedeltas.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.datetimes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.indexes.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\indexes\\api.py',
+   'PYMODULE'),
+  ('pandas.core.base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\base.py',
+   'PYMODULE'),
+  ('pandas.io.formats',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\formats\\__init__.py',
+   'PYMODULE'),
+  ('pandas._typing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_typing.py',
+   'PYMODULE'),
+  ('pandas._config.config',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_config\\config.py',
+   'PYMODULE'),
+  ('pandas.core.ops.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\ops\\common.py',
+   'PYMODULE'),
+  ('pandas.core.construction',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\construction.py',
+   'PYMODULE'),
+  ('pandas.core.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\common.py',
+   'PYMODULE'),
+  ('pandas.core.arrays._ranges',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\_ranges.py',
+   'PYMODULE'),
+  ('pandas.core.algorithms',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\algorithms.py',
+   'PYMODULE'),
+  ('pandas.core.nanops',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\nanops.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.missing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\missing.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.generic',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\generic.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.dtypes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py',
+   'PYMODULE'),
+  ('pytz',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pytz\\__init__.py',
+   'PYMODULE'),
+  ('pytz.tzfile',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\pytz\\tzfile.py',
+   'PYMODULE'),
+  ('pytz.tzinfo',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\pytz\\tzinfo.py',
+   'PYMODULE'),
+  ('pytz.lazy',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\pytz\\lazy.py',
+   'PYMODULE'),
+  ('pytz.exceptions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pytz\\exceptions.py',
+   'PYMODULE'),
+  ('pandas.core.dtypes.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\dtypes\\common.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy.function',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\compat\\numpy\\function.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.string_',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\string_.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.period',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\period.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numpy_',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\numpy_.py',
+   'PYMODULE'),
+  ('pandas.core.strings.object_array',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\strings\\object_array.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.masked',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\masked.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.interval',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\interval.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.integer',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\integer.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.numeric',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\numeric.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.floating',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\floating.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimes.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.categorical',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\categorical.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.boolean',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\boolean.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.base',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\base.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.datetimelike',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\datetimelike.py',
+   'PYMODULE'),
+  ('pandas.core',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\__init__.py',
+   'PYMODULE'),
+  ('pandas.testing',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\testing.py',
+   'PYMODULE'),
+  ('pandas.util._tester',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\util\\_tester.py',
+   'PYMODULE'),
+  ('pandas.io.json',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\json\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.json._table_schema',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\json\\_table_schema.py',
+   'PYMODULE'),
+  ('pandas.io.json._normalize',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\json\\_normalize.py',
+   'PYMODULE'),
+  ('pandas.io.json._json',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\json\\_json.py',
+   'PYMODULE'),
+  ('pandas.io.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\api.py',
+   'PYMODULE'),
+  ('pandas.io.spss',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\spss.py',
+   'PYMODULE'),
+  ('pandas.io.sas',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\sas\\__init__.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sasreader',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\sas\\sasreader.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas7bdat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_constants',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas_constants.py',
+   'PYMODULE'),
+  ('pandas.io.sas.sas_xport',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\sas\\sas_xport.py',
+   'PYMODULE'),
+  ('pandas.io.orc',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\orc.py',
+   'PYMODULE'),
+  ('pandas.io.html',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\io\\html.py',
+   'PYMODULE'),
+  ('lxml.html',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\__init__.py',
+   'PYMODULE'),
+  ('lxml.cssselect',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\cssselect.py',
+   'PYMODULE'),
+  ('lxml.html._setmixin',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\_setmixin.py',
+   'PYMODULE'),
+  ('lxml.html.defs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\defs.py',
+   'PYMODULE'),
+  ('lxml',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\__init__.py',
+   'PYMODULE'),
+  ('lxml.html._html5builder',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\_html5builder.py',
+   'PYMODULE'),
+  ('lxml.html.formfill',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\formfill.py',
+   'PYMODULE'),
+  ('lxml.pyclasslookup',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\pyclasslookup.py',
+   'PYMODULE'),
+  ('lxml.html._diffcommand',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\_diffcommand.py',
+   'PYMODULE'),
+  ('lxml.html.soupparser',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\soupparser.py',
+   'PYMODULE'),
+  ('lxml.html.html5parser',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\html5parser.py',
+   'PYMODULE'),
+  ('lxml.html.builder',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\builder.py',
+   'PYMODULE'),
+  ('lxml.ElementInclude',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\ElementInclude.py',
+   'PYMODULE'),
+  ('lxml.usedoctest',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\usedoctest.py',
+   'PYMODULE'),
+  ('lxml.html.ElementSoup',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\ElementSoup.py',
+   'PYMODULE'),
+  ('lxml.html.usedoctest',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\html\\usedoctest.py',
+   'PYMODULE'),
+  ('lxml.doctestcompare',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\doctestcompare.py',
+   'PYMODULE'),
+  ('lxml.isoschematron',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\isoschematron\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\lxml\\includes\\__init__.py',
+   'PYMODULE'),
+  ('bs4',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\__init__.py',
+   'PYMODULE'),
+  ('bs4.element',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\element.py',
+   'PYMODULE'),
+  ('bs4.formatter',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\formatter.py',
+   'PYMODULE'),
+  ('soupsieve',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\soupsieve\\__init__.py',
+   'PYMODULE'),
+  ('soupsieve.css_parser',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\soupsieve\\css_parser.py',
+   'PYMODULE'),
+  ('soupsieve.css_match',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\soupsieve\\css_match.py',
+   'PYMODULE'),
+  ('soupsieve.css_types',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\soupsieve\\css_types.py',
+   'PYMODULE'),
+  ('soupsieve.util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\soupsieve\\util.py',
+   'PYMODULE'),
+  ('soupsieve.__meta__',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\soupsieve\\__meta__.py',
+   'PYMODULE'),
+  ('bs4.dammit',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\dammit.py',
+   'PYMODULE'),
+  ('chardet',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\__init__.py',
+   'PYMODULE'),
+  ('chardet.version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\version.py',
+   'PYMODULE'),
+  ('chardet.enums',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\enums.py',
+   'PYMODULE'),
+  ('chardet.universaldetector',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\universaldetector.py',
+   'PYMODULE'),
+  ('chardet.sbcsgroupprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\sbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.sbcharsetprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\sbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.charsetprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\charsetprober.py',
+   'PYMODULE'),
+  ('chardet.langturkishmodel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\langturkishmodel.py',
+   'PYMODULE'),
+  ('chardet.langthaimodel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\langthaimodel.py',
+   'PYMODULE'),
+  ('chardet.langrussianmodel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\langrussianmodel.py',
+   'PYMODULE'),
+  ('chardet.langhebrewmodel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\langhebrewmodel.py',
+   'PYMODULE'),
+  ('chardet.langgreekmodel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\langgreekmodel.py',
+   'PYMODULE'),
+  ('chardet.langbulgarianmodel',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\langbulgarianmodel.py',
+   'PYMODULE'),
+  ('chardet.hebrewprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\hebrewprober.py',
+   'PYMODULE'),
+  ('chardet.mbcsgroupprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\mbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.euctwprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\euctwprober.py',
+   'PYMODULE'),
+  ('chardet.mbcssm',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\mbcssm.py',
+   'PYMODULE'),
+  ('chardet.chardistribution',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\chardistribution.py',
+   'PYMODULE'),
+  ('chardet.jisfreq',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\jisfreq.py',
+   'PYMODULE'),
+  ('chardet.big5freq',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\big5freq.py',
+   'PYMODULE'),
+  ('chardet.gb2312freq',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\gb2312freq.py',
+   'PYMODULE'),
+  ('chardet.euckrfreq',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\euckrfreq.py',
+   'PYMODULE'),
+  ('chardet.euctwfreq',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\euctwfreq.py',
+   'PYMODULE'),
+  ('chardet.codingstatemachine',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\codingstatemachine.py',
+   'PYMODULE'),
+  ('chardet.mbcharsetprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\mbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.big5prober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\big5prober.py',
+   'PYMODULE'),
+  ('chardet.cp949prober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\cp949prober.py',
+   'PYMODULE'),
+  ('chardet.euckrprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\euckrprober.py',
+   'PYMODULE'),
+  ('chardet.gb2312prober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\gb2312prober.py',
+   'PYMODULE'),
+  ('chardet.eucjpprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\eucjpprober.py',
+   'PYMODULE'),
+  ('chardet.jpcntx',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\jpcntx.py',
+   'PYMODULE'),
+  ('chardet.sjisprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\sjisprober.py',
+   'PYMODULE'),
+  ('chardet.utf8prober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\utf8prober.py',
+   'PYMODULE'),
+  ('chardet.latin1prober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\latin1prober.py',
+   'PYMODULE'),
+  ('chardet.escprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\escprober.py',
+   'PYMODULE'),
+  ('chardet.escsm',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\escsm.py',
+   'PYMODULE'),
+  ('chardet.charsetgroupprober',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\chardet\\charsetgroupprober.py',
+   'PYMODULE'),
+  ('bs4.builder',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\builder\\__init__.py',
+   'PYMODULE'),
+  ('bs4.builder._lxml',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\builder\\_lxml.py',
+   'PYMODULE'),
+  ('bs4.builder._html5lib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\builder\\_html5lib.py',
+   'PYMODULE'),
+  ('bs4.builder._htmlparser',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\bs4\\builder\\_htmlparser.py',
+   'PYMODULE'),
+  ('pandas.util._print_versions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\util\\_print_versions.py',
+   'PYMODULE'),
+  ('pandas.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\api\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.indexers',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\api\\indexers\\__init__.py',
+   'PYMODULE'),
+  ('pandas.api.extensions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\api\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.reshape.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\reshape\\api.py',
+   'PYMODULE'),
+  ('pandas.core.computation.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\computation\\api.py',
+   'PYMODULE'),
+  ('pandas.tseries.offsets',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\tseries\\offsets.py',
+   'PYMODULE'),
+  ('pandas.tseries',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\tseries\\__init__.py',
+   'PYMODULE'),
+  ('pandas.tseries.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\tseries\\api.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\__init__.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.accessor',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\accessor.py',
+   'PYMODULE'),
+  ('pandas.core.arrays.sparse.scipy_sparse',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\arrays\\sparse\\scipy_sparse.py',
+   'PYMODULE'),
+  ('pandas.core.api',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\api.py',
+   'PYMODULE'),
+  ('pandas.core.config_init',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\core\\config_init.py',
+   'PYMODULE'),
+  ('pandas._config',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_config\\__init__.py',
+   'PYMODULE'),
+  ('pandas._config.display',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_config\\display.py',
+   'PYMODULE'),
+  ('pandas._config.dates',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_config\\dates.py',
+   'PYMODULE'),
+  ('pandas._libs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\_libs\\__init__.py',
+   'PYMODULE'),
+  ('pandas.compat.numpy',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\pandas\\compat\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('scrapper.homepageScrapper',
+   'C:\\vs code-workspace\\zun1121\\venv\\scrapper\\homepageScrapper.py',
+   'PYMODULE'),
+  ('scrapper', '-', 'PYMODULE'),
+  ('scrapper.scrapper',
+   'C:\\vs code-workspace\\zun1121\\venv\\scrapper\\scrapper.py',
+   'PYMODULE'),
+  ('urllib3',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib._appengine_environ',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\contrib\\_appengine_environ.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports.makefile',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\packages\\backports\\makefile.py',
+   'PYMODULE'),
+  ('urllib3.packages.backports',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\packages\\backports\\__init__.py',
+   'PYMODULE'),
+  ('idna',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('urllib3.packages.six',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\packages\\six.py',
+   'PYMODULE'),
+  ('urllib3.packages',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\packages\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.packages.ssl_match_hostname',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\packages\\ssl_match_hostname\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.packages.ssl_match_hostname._implementation',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\packages\\ssl_match_hostname\\_implementation.py',
+   'PYMODULE'),
+  ('ipaddress', 'C:\\python38-32\\lib\\ipaddress.py', 'PYMODULE'),
+  ('urllib3.util.timeout',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('urllib3.request',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\request.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.queue',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\util\\queue.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('requests',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('http.cookies', 'C:\\python38-32\\lib\\http\\cookies.py', 'PYMODULE'),
+  ('requests.api',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.models',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'c:\\vs code-workspace\\zun1121\\venv\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\python38-32\\lib\\importlib\\resources.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support.expected_conditions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\expected_conditions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\utils.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.html5.application_cache',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\html5\\application_cache.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.html5',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\html5\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.utils',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\utils.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.keys',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\keys.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.file_detector',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.mobile',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\mobile.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.switch_to',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\switch_to.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.alert',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\alert.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.errorhandler',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.remote_connection',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.webelement',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.command',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\remote\\command.py',
+   'PYMODULE'),
+  ('selenium.common.exceptions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\common\\exceptions.py',
+   'PYMODULE'),
+  ('selenium.common',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\common\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support.ui',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\ui.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support.wait',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support.select',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\support\\select.py',
+   'PYMODULE'),
+  ('selenium.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.proxy',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\proxy.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.touch_actions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\touch_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.action_chains',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\action_chains.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.action_builder',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\action_builder.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.pointer_input',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_input.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.input_device',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\input_device.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.pointer_actions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.mouse_button',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\mouse_button.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.key_input',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_input.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.key_actions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.interaction',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\interaction.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\actions\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.desired_capabilities',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\desired_capabilities.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.options',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\webkitgtk\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\webkitgtk\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\webkitgtk\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\webkitgtk\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.android.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\android\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.android',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\android\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.phantomjs.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\phantomjs\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.phantomjs',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\phantomjs\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.phantomjs.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\phantomjs\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.blackberry.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\blackberry\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.blackberry',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\blackberry\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\safari\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\safari\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.remote_connection',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\safari\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\safari\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.opera.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\opera\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.opera',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\opera\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.opera.options',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\opera\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\edge\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\edge\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\edge\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.options',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\ie\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\ie\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\ie\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\ie\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.options',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\chrome\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\chrome\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\chrome\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.remote_connection',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\chrome\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.options',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.firefox_binary',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_binary.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.firefox_profile',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_profile.py',
+   'PYMODULE'),
+  ('xml.dom.minidom', 'C:\\python38-32\\lib\\xml\\dom\\minidom.py', 'PYMODULE'),
+  ('xml.dom.pulldom', 'C:\\python38-32\\lib\\xml\\dom\\pulldom.py', 'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\python38-32\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\python38-32\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\python38-32\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\python38-32\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg', 'C:\\python38-32\\lib\\xml\\dom\\domreg.py', 'PYMODULE'),
+  ('xml.dom', 'C:\\python38-32\\lib\\xml\\dom\\__init__.py', 'PYMODULE'),
+  ('selenium.webdriver.firefox.webdriver',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.webelement',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\webelement.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.service',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.remote_connection',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.extension_connection',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\firefox\\extension_connection.py',
+   'PYMODULE'),
+  ('selenium',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.by',
+   'c:\\vs '
+   'code-workspace\\zun1121\\venv\\lib\\site-packages\\selenium\\webdriver\\common\\by.py',
+   'PYMODULE')])
