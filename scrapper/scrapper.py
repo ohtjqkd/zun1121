@@ -37,20 +37,23 @@ def getUrlJob(page_url, list_class):
     cnt = input()
     cnt = int(cnt) if cnt != "" else float('inf')
     while True:
-        list_url = f'{page_url}{page}'
-        time.sleep(random.randint(5, 10))
-        job_res = requests.get(list_url, headers = my_headers)
-        soup = BeautifulSoup(job_res.text, "html.parser")
-        job_list = soup.select(list_class.get("value"))
-        print(f'<---------------{page} page scrapped--------------->' )
-        if len(job_list) == 0:
-            print("No more job")
-            break
-        for job in job_list:
-            job_url_list.append(job.get('href'))
-        if len(job_list) >= cnt:
-            break
-        page += 1
+        try:
+            list_url = f'{page_url}{page}'
+            time.sleep(random.randint(5, 10))
+            job_res = requests.get(list_url, headers = my_headers)
+            soup = BeautifulSoup(job_res.text, "html.parser")
+            job_list = soup.select(list_class.get("value"))
+            print(f'<---------------{page} page scrapped--------------->' )
+            if len(job_list) == 0:
+                print("No more job")
+                break
+            for job in job_list:
+                job_url_list.append(job.get('href'))
+            if len(job_url_list) >= cnt:
+                break
+            page += 1
+        except Exception as e:
+            print(e)
     return job_url_list
 
 def getDataByUrl(root_url, page_url, params, driver):
@@ -110,7 +113,7 @@ def getDataByBs(data, res, params):
                 element = root.xpath(param.get('selector').get('value'))[param.get('attr')]
                 data[param['name']] = element
         except Exception as e:
-            print(param['name'])
+            print(f'{param["name"]} doesn\'t not exist')
             print(e)
             data[param['name']] = None            
     return data
@@ -125,8 +128,8 @@ def getElementBySel(data, driver, params):
             else:
                 data[param['name']] = target.get_attribute(param.get('attr'))
         except Exception as e:
-            print(param['name'])
-            # print(e)
+            print(f'{param["name"]} doesn\'t not exist')
+            print(e)
             data[param['name']] = None
             continue
 
@@ -138,5 +141,9 @@ def scrap(params):
     url_list = getUrlJob(f'{root_url}{page_url}', list_class=params.get("list_class"))
     with makeDriver() as driver:
         for idx, url in enumerate(url_list):
-            result.append(getDataByUrl(root_url, url, params.get("each"), driver))
+            try:
+                result.append(getDataByUrl(root_url, url, params.get("each"), driver))
+            except Exception as e:
+                print(e)
+                continue
     return result

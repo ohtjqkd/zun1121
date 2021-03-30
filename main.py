@@ -12,10 +12,15 @@ while True:
         result = homepageScrapper.saraminScrap(keyword)
         # result = homepageScrapper.jobkoreaScrap(keyword)
         print("데이터 수집완료. csv파일 다운로드를 시작합니다.")
-        downloader.download(keyword, result)
-        print("다운로드 완료")
-        # df.to_csv(path_or_buf="test.csv", encoding="utf-8-sig")
+        try:
+            downloader.download(keyword, result)
+        except Exception as e:
+            print(e)
+            print("다운로드 실패")
+        
     except Exception as e:
         print(e)
-        time.sleep(10)
-        break
+        print("에러발생. 개발자에게 연락하시고 종료하시려면 'exit'를 입력해주세요.")
+        command = input()
+        if command == 'exit':
+            break

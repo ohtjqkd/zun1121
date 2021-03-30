@@ -9,6 +9,7 @@ def download(keyword, contents):
   df['email'] = df['email'].apply(lambda x: [mail.replace("mailto:","") for mail in x] if x else x)
   try:
     df.to_csv(path_or_buf=f'{now}_{keyword}.csv', encoding="utf-8-sig")
+    print("다운로드 완료")
   except:
     print("다운로드 실패")
     return False
